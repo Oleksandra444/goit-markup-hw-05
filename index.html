@@ -28,8 +28,8 @@
           </a>
           <!-- -----Navigation----- -->
           <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Studio</a>
+            <li class="menu-item studio">
+              <a class="menu-link studio link" href="./index.html">Studio</a>
             </li>
 
             <li class="menu-item">
@@ -64,7 +64,9 @@
       <!-- -----Hero----- -->
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="btn-order" type="button">Order Service</button>
+        <button class="btn-order" data-modal-open type="button">
+          Order Service
+        </button>
       </section>
 
       <!-- -----Our benefits----- -->
@@ -435,5 +437,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- -----Modal window----- -->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-button" data-modal-close type="button">
+          <svg class="icon-close">
+            <use href="/images/symbol-defs.svg#icon-close-button"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
