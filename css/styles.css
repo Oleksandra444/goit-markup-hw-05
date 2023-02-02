@@ -85,7 +85,7 @@ color: var(--change-color)}
 .menu-link.studio::after{
 content: '';
 position: absolute;
-bottom: 0%;
+bottom: -1px;
 display: block;
 width: 100%;
 height: 4px;
@@ -507,7 +507,7 @@ color: var(--change-color);}
 .menu-link.portfolio-menu::after {
 content: '';
 position: absolute;
-bottom: 0%;
+bottom: -1px;
 display: block;
 width: 100%;
 height: 4px;
